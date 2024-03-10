@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en theme-light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-black">
+    <div class="navbar bg-base-100">
+        <div class="navbar-start">
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 text-base shadow bg-base-100 rounded-box w-52">
+                    <li><a>home</a></li>
+                    <li><a>shop</a></li>
+                    <li><a>news</a></li>
+                    <li><a>contact</a></li>
+                </ul>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            </div>
+            <a class="text-xl">Hockey<span class="text-red-800">’</span>s</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li><a class="text-red-800 font-bold text-lg">home</a></li>
+                <li><a class="font-bold text-lg">about</a></li>
+                <li><a class="font-bold text-lg">pages</a></li>
+                <li><a class="font-bold text-lg">blog</a></li>
+                <li><a class="font-bold text-lg">contact</a></li>
+            </ul>
+        </div>
+        <div class="navbar-end">
+            <button class="btn btn-error">Error</button>
+        </div>
+    </div>
+
+    <div class="carousel w-full relative">
+        <div id="slide1" class="carousel-item relative w-full">
+            <img src="Images/1.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 lg:left-0 lg:right-0 lg:justify-center">
+                <a href="#slide4" class="btn btn-circle">❮</a>
+                <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+            <img src="Images/1.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 lg:left-0 lg:right-0 lg:justify-center">
+                <a href="#slide1" class="btn btn-circle">❮</a>
+                <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full">
+            <img src="Images/1.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 lg:left-0 lg:right-0 lg:justify-center">
+                <a href="#slide2" class="btn btn-circle">❮</a>
+                <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+        </div>
+        <div id="slide4" class="carousel-item relative w-full">
+            <img src="Images/1.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 lg:left-0 lg:right-0 lg:justify-center">
+                <a href="#slide3" class="btn btn-circle">❮</a>
+                <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+        </div>
+        <!-- Text with background color -->
+        <div class="absolute bottom-5 right-5 bg-black px-7 py-3 rounded-md">
+            <p class="text-white">Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
+    </div>
+    <div>
+        <h1 class="text-center p-14">Professional Hockeys Club</h1>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi unde autem dolores illum voluptatum cupiditate amet cum numquam, aspernatur nihil <br> saepe facilis, dicta enim consequuntur eaque quidem pariatur commodi fuga?</p>
+    </div>
+
+    <div class="flex justify-center items-center m-10 gap-36">
+        <div class="flex flex-col lg:flex-row lg:gap-14">
+            <div class="radial-progress-container mb-8 lg:mb-0">
+                <div class="radial-progress" style="--value:87;">87%</div>
+                <div class="progress-info">
+                    <h3 class="text-lg font-semibold">Prayer Facility</h3>
+                    <p class="text-sm">Description for 0%</p>
+                </div>
+            </div>
+            <div class="radial-progress-container mb-8 lg:mb-0">
+                <div class="radial-progress" style="--value:95;">95%</div>
+                <div class="progress-info">
+                    <h3 class="text-lg font-semibold">Experienced Coach</h3>
+                    <p class="text-sm">Description for 20%</p>
+                </div>
+            </div>
+            <div class="radial-progress-container mb-8 lg:mb-0">
+                <div class="radial-progress" style="--value:90;">60%</div>
+                <div class="progress-info">
+                    <h3 class="text-lg font-semibold">Senior Player</h3>
+                    <p class="text-sm">Description for 60%</p>
+                </div>
+            </div>
+            <div class="radial-progress-container">
+                <div class="radial-progress" style="--value:80;">80%</div>
+                <div class="progress-info">
+                    <h3 class="text-lg font-semibold">Training Ground</h3>
+                    <p class="text-sm">Description for 80%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center">
+        <h1 class="text-center">Program section</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed omnis officia cum nam deleniti voluptatibus, voluptatem sequi rem dolor <br>eligendi cumque doloremque mollitia dolore, tempore molestiae id possimus modi enim.</p>
+    </div>
+    <div>
+        <div class="container mx-auto mt-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="col-span-1">
+                    <div class="relative">
+                        <img src="/Images/2.png" alt="Image 1" class="w-full" />
+                        <div class="absolute bottom-0 left-0 right-0 p-4 bg-gray-800 bg-opacity-75 text-white">
+                            <h2 class="text-xl font-bold">Image 1 Title</h2>
+                            <p class="mt-2">Description for Image 1</p>
+                            <button class="mt-4 bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded">Button</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-1">
+                    <div class="relative">
+                        <img src="/Images/3.png" alt="Image 2" class="w-full" />
+                        <div class="absolute bottom-0 left-0 right-0 p-4 bg-gray-800 bg-opacity-75 text-white">
+                            <h2 class="text-xl font-bold">Image 2 Title</h2>
+                            <p class="mt-2">Description for Image 2</p>
+                            <button class="mt-4 bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded">Button</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-4 md:col-span-2"> <!-- Full width on mobile, 2 columns on desktop -->
+                <div class="relative">
+                    <img src="/Images/4.png" alt="Image 3" class="w-full" />
+                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-gray-800 bg-opacity-75 text-white">
+                        <h2 class="text-xl font-bold">Image 3 Title</h2>
+                        <p class="mt-2">Description for Image 3</p>
+                        <button class="mt-4 bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded">Button</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+
+    <div class="text-center">
+        <h1 class="font-bold text-lg m-4">Our New Products</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, ad dignissimos nostrum totam tenetur eius nobis quos incidunt laborum tempora, non itaque sapiente quas possimus eligendi repudiandae voluptatum iusto blanditiis.</p>
+    </div>
+
+    <div class="container mx-auto mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-gray-100 flex flex-row items-center p-4">
+            <img src="/Images/5.png" alt="Image 1" class="w-1/3 mr-4" />
+            <div>
+                <h2 class="text-lg font-bold">World Cup Flags Football</h2>
+                <p>Description for Image 1</p>
+                <div class="flex items-center mt-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                    </svg>
+                    <p class="m-2">5.0</p>
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                    </svg>
+                    <p class="m-2">20</p>
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                    </svg>
+                    <p class="m-2">200</p>
+                    
+                </div>
+                <p class="text-sm mt-2">Price: $10</p>
+                <p class="text-sm">Delivery Fee: $5</p>
+            </div>
+        </div>
+        
+        <div class="bg-gray-100 flex flex-row items-center p-4">
+            <img src="/Images/6.png" alt="Image 1" class="w-1/3 mr-4" />
+            <div>
+                <h2 class="text-lg font-bold">World Cup Flags Football</h2>
+                <p>Description for Image 1</p>
+                <div class="flex items-center mt-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                    </svg>
+                    <p class="m-2">5.0</p>
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                    </svg>
+                    <p class="m-2">20</p>
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                    </svg>
+                    <p class="m-2">200</p>
+                    
+                </div>
+                <p class="text-sm mt-2">Price: $10</p>
+                <p class="text-sm">Delivery Fee: $5</p>
+            </div>
+        </div>
+        
+        <div class="bg-gray-100 flex flex-row items-center p-4">
+            <img src="/Images/7.png" alt="Image 1" class="w-1/3 mr-4" />
+            <div>
+                <h2 class="text-lg font-bold">World Cup Flags Football</h2>
+                <p>Description for Image 1</p>
+                <div class="flex items-center mt-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                    </svg>
+                    <p class="m-2">5.0</p>
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                    </svg>
+                    <p class="m-2">20</p>
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                    </svg>
+                    <p class="m-2">200</p>
+                    
+                </div>
+                <p class="text-sm mt-2">Price: $10</p>
+                <p class="text-sm">Delivery Fee: $5</p>
+            </div>
+        </div>
+        
+        <div class="bg-gray-100 flex flex-row items-center p-4">
+            <img src="/Images/8.png" alt="Image 1" class="w-1/3 mr-4" />
+            <div>
+                <h2 class="text-lg font-bold">World Cup Flags Football</h2>
+                <p>Description for Image 1</p>
+                <div class="flex items-center mt-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                    </svg>
+                    <p class="m-2">5.0</p>
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                    </svg>
+                    <p class="m-2">20</p>
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                    </svg>
+                    <p class="m-2">200</p>
+                    
+                </div>
+                <p class="text-sm mt-2">Price: $10</p>
+                <p class="text-sm">Delivery Fee: $5</p>
+            </div>
+        </div>
+        
+        <div class="bg-gray-100 flex flex-row items-center p-4">
+            <img src="/Images/9.png" alt="Image 1" class="w-1/3 mr-4" />
+            <div>
+                <h2 class="text-lg font-bold">World Cup Flags Football</h2>
+                <p>Description for Image 1</p>
+                <div class="flex items-center mt-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                    </svg>
+                    <p class="m-2">5.0</p>
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                    </svg>
+                    <p class="m-2">20</p>
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                    </svg>
+                    <p class="m-2">200</p>
+                    
+                </div>
+                <p class="text-sm mt-2">Price: $10</p>
+                <p class="text-sm">Delivery Fee: $5</p>
+            </div>
+        </div>
+        
+        <div class="bg-gray-100 flex flex-row items-center p-4">
+            <img src="/Images/10.png" alt="Image 1" class="w-1/3 mr-4" />
+            <div>
+                <h2 class="text-lg font-bold">World Cup Flags Football</h2>
+                <p>Description for Image 1</p>
+                <div class="flex items-center mt-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                    </svg>
+                    <p class="m-2">5.0</p>
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                    </svg>
+                    <p class="m-2">20</p>
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                    </svg>
+                    <p class="m-2">200</p>
+                    
+                </div>
+                <p class="text-sm mt-2">Price: $10</p>
+                <p class="text-sm">Delivery Fee: $5</p>
+            </div>
+        </div>
+
+        <div class="container mx-auto mt-10 flex flex-col md:flex-row items-start md:items-center">
+            <div class="grid grid-cols-2 gap-4">
+                <!-- Image -->
+                <div class="col-span-1">
+                    <img src="/Images/11.png" alt="Image" class="w-full h-full object-cover" />
+                </div>
+            
+                <!-- Accordions -->
+                <div class="col-span-1">
+                    <div class="accordion">
+                        <div class="collapse collapse-plus bg-gray-200">
+                            <input type="checkbox" id="accordion-1" class="hidden" /> 
+                            <div class="collapse-title text-xl font-medium cursor-pointer">
+                                <label for="accordion-1" class="accordion-label">Click to open this one and close others</label>
+                            </div>
+                            <div class="collapse-content"> 
+                                <p>Hello 1</p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-plus bg-gray-200">
+                            <input type="checkbox" id="accordion-2" class="hidden" /> 
+                            <div class="collapse-title text-xl font-medium cursor-pointer">
+                                <label for="accordion-2" class="accordion-label">Click to open this one and close others</label>
+                            </div>
+                            <div class="collapse-content"> 
+                                <p>Hello 2</p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-plus bg-gray-200">
+                            <input type="checkbox" id="accordion-3" class="hidden" /> 
+                            <div class="collapse-title text-xl font-medium cursor-pointer">
+                                <label for="accordion-3" class="accordion-label">Click to open this one and close others</label>
+                            </div>
+                            <div class="collapse-content"> 
+                                <p>Hello 3</p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-plus bg-gray-200">
+                            <input type="checkbox" id="accordion-4" class="hidden" /> 
+                            <div class="collapse-title text-xl font-medium cursor-pointer">
+                                <label for="accordion-4" class="accordion-label">Click to open this one and close others</label>
+                            </div>
+                            <div class="collapse-content"> 
+                                <p>Hello 4</p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-plus bg-gray-200">
+                            <input type="checkbox" id="accordion-5" class="hidden" /> 
+                            <div class="collapse-title text-xl font-medium cursor-pointer">
+                                <label for="accordion-5" class="accordion-label">Click to open this one and close others</label>
+                            </div>
+                            <div class="collapse-content"> 
+                                <p>Hello 5</p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-plus bg-gray-200">
+                            <input type="checkbox" id="accordion-6" class="hidden" /> 
+                            <div class="collapse-title text-xl font-medium cursor-pointer">
+                                <label for="accordion-6" class="accordion-label">Click to open this one and close others</label>
+                            </div>
+                            <div class="collapse-content"> 
+                                <p>Hello 6</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+                
+            </div>  
+            
+        
+
+</body>
+</html>
